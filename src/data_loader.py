@@ -26,5 +26,6 @@ def load_all_documents(data_dir:str) -> List[Any]:
             documents.extend(loaded)
         except Exception as e:
             print(f"[ERROR] Failed to laod PDF {pdf_file}: {e}")
-            
+
+    return documents            
 
