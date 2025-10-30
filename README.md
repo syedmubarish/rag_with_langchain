@@ -10,7 +10,7 @@ This app ingests the IPC PDF, chunks and embeds its content, and uses an LLM (e.
 - 📄 **PDF Ingestion:** Automatically extracts and preprocesses IPC text  
 - 🔍 **Context Retrieval:** Uses vector embeddings to find the most relevant sections  
 - 🧠 **LLM Integration:** Combines retrieved context with a large language model for generation  
-- 💾 **Persistent Vector Store:** Reuse embeddings between runs using FAISS or Chroma  
+- 💾 **Persistent Vector Store:** Reuse embeddings between runs using Chroma  
 - 🧩 **LangChain Framework:** Modular design with chain-based workflows  
 - ⚖️ **Legal Transparency:** Includes referenced IPC sections in answers  
 
