@@ -25,7 +25,7 @@ This app ingests the IPC PDF, chunks and embeds its content, and uses an LLM (e.
 | **Gemini API** | LLM  |
 | **Chroma** | Vector database for retrieval |
 | **PyPDF2 / PyMuPDF** | PDF text extraction |
-| 
+
 
 ---
 
