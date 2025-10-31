@@ -10,5 +10,7 @@ if __name__ == "__main__":
     embeddings = emb_pipe.embed_chunks(chunks)
 
     chroma_store = ChromaVectorStore()
-    chroma_store.add_documents(chunks,embeddings)
+    # chroma_store.add_documents(chunks,embeddings)
+
+    emb_pipe.embed_query("What is 307")
     

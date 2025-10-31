@@ -35,3 +35,9 @@ class EmbeddingPipeline:
         embeddings = self.model.encode(texts,show_progress_bar=True)
         print(f"Embeddings shape:{embeddings.shape}")
         return embeddings
+
+    def embed_query(self,query:str) -> np.ndarray:
+        print(f"[INFO]Generate embedding for query")
+        query_embedding = self.model.encode(query)
+        print(f"Embeddings shape:{query_embedding.shape}")
+        return query_embedding
