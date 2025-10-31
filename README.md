@@ -1,7 +1,7 @@
 # ⚖️ Indian Penal Code (IPC) RAG Application — LangChain Edition
 
 A **Retrieval-Augmented Generation (RAG)** application built using **LangChain** to enable intelligent question answering and semantic search on the **Indian Penal Code (IPC)**.  
-This app ingests the IPC PDF, chunks and embeds its content, and uses an LLM (e.g., OpenAI GPT model) to generate accurate, context-aware legal answers.
+This app ingests the IPC PDF, chunks and embeds its content, and uses an LLM (e.g., Google Gemini Model) to generate accurate, context-aware legal answers.
 
 ---
 
